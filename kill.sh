@@ -2,6 +2,7 @@
 # example: ./kill.sh {program name} ./kill.sh nginx
 # 可根据需要通过grep多次筛选出符合要求的进程
 
+
 if [ -z "$1" ];
 then
     echo "please inuput program name"
